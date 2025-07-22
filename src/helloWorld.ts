@@ -25,6 +25,10 @@ console.log(message);
 
 If we want js file should be ECMA@latest
 
+To directly run TS file and internally that converts to js file, 
+need to install following: npm install --save-dev ts-node typescript
+and command : npx ts-node "filename"
+
 */
 
 let message: string = "Hey there";
