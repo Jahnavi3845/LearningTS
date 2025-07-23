@@ -4,6 +4,7 @@
     "module": "es2022", //Use modern modules
     "lib": ["es2024", "DOM"], //includes latest APIs
     "strict": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true

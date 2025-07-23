@@ -40,7 +40,16 @@ To directly run TS file and internally that converts to js file,
 need to install following: npm install --save-dev ts-node typescript
 and command : npx ts-node "filename"
 
+to get tsconfig>>>npx tsc --init
+
 */
 
 let message: string = "Hey there";
 console.log(message);
+
+let intro = {
+  name: "Jahnavi",
+  age: 20,
+};
+
+console.log(intro.email);
